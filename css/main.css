@@ -1,0 +1,408 @@
+/*****FONT******/
+ @font-face {
+    font-family: Lenovo Vietnam;
+    src: url('../fonts/lenovo_vietnam.ttf');
+}
+/* ==========================================================================
+   Tien Le<tien06051992@gmail.com>'s custom styles
+   ========================================================================== */
+
+/******************
+* Header
+*******************/
+ body {
+    font-family: Lenovo Vietnam;
+}
+#container .container {
+    width: 1260px !important;
+    padding: 0px !important;
+}
+.menu {
+    background: #313231;
+}
+.menu ul.main-menu li a {
+    color: #dc1e1a;
+    font-size: 20px;
+}
+
+.menu ul.main-menu li:last-child {
+    background: none;
+}
+.menu ul.main-menu li:last-child a {
+    padding-right: 0px;
+}
+.menu ul.main-menu li a:hover {
+    background: none;
+    text-decoration: underline;
+}
+.menu ul.main-menu li.active a {
+    background: none;
+    font-weight: 800;
+}
+.menu ul.main-menu li.active a:hover {
+    text-decoration: none;
+}
+/******************
+* End Header
+*******************/
+
+/******************
+* Main
+*******************/
+
+/**
+*	Index <tien06051992@gmail.com>
+**/
+
+#main {
+    margin: 0 auto;
+    width: 1349px;
+}
+
+.bg-index {
+    display: block;
+    height: 673px;
+    width: 100%;
+    background: url('../img/bgindex.png') no-repeat;
+}
+.index-relative {
+    position: relative;
+}
+.fblogin {
+    position: absolute;
+    top: 500px;
+    left: 300px;
+}
+.thelechuongtrinh {
+	position: absolute;
+	top: 530px;
+	right: 300px;
+}
+.info-board-ruttham {
+    width: 537px;
+    height: 347px;
+    background: rgba(0,0,0,0.3);
+    overflow: auto;
+}
+/**
+*	trang chu 1 <tien06051992@gmail.com>
+**/
+.bg-index-trangchu-1 {
+    display: block;
+    height: 673px;
+    width: 100%;
+    background: url('../img/bgindex2.png') no-repeat;
+}
+
+.sanlenovo {
+    position: absolute;
+    top: 500px;
+    left: 160px;
+}
+
+.item-board {
+    position: absolute;
+    width: 725px;
+    height: 508px;
+    background: url('../img/gameboard.png') no-repeat;
+    top: 100px;
+    right: 0px;
+}
+
+.wrap-item {
+    padding-top: 63px;
+    padding-left: 14px;
+}
+
+.bg-button-play {
+    width: 684px;
+    height: 451px;
+    background: rgba(0,0,0,0.6);
+    top: 55px;
+    position: absolute;
+}
+
+.btnPlay {
+    position: absolute;
+    top: 157px;
+    left: 225px;
+    cursor: pointer;
+}
+
+.label-client {
+    font-size: 21px;
+    position: absolute;
+    top: 632px;
+    right: 40px;
+}
+
+.label-client span {
+    margin-left: 20px;
+}
+
+/**
+*	lat o <tien06051992@gmail.com>
+**/
+.wrap-label {
+    padding-top: 58px;
+    padding-left: 3px;
+}
+
+.choitiep {
+    position: absolute;
+    bottom: 20px;
+    right: 80px;
+}
+
+.wrap-info-board {
+    position: absolute;
+    width: 725px;
+    height: 508px;
+    top: 100px;
+    right: 0px;
+}
+
+
+
+/**
+*	 capnhatthongtin <tien06051992@gmail.com>
+**/
+
+.info-board {
+    width: 700px;
+    height: 470px;
+    background: rgba(0,0,0,0.3);
+    overflow: auto;
+}
+
+.info-board p{
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 40px;
+}
+
+.label-info {
+    position: absolute;
+    right: 41px;
+    top: -19px;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+.form-capnhat {
+    padding-top: 120px;
+    padding-left: 80px;
+}
+
+.form-capnhat .line {
+    margin-bottom: 5px;
+}
+
+.line label {
+    width: 135px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.line input {
+    width: 350px;
+    height: 23px;
+    background: #e2e2e2;
+    border: none;
+    padding-left: 5px;
+}
+
+.line span {
+    font-size: 16px;
+    color: #e02525;
+}
+
+.wrap-bttuon {
+    padding-right: 124px;
+}
+
+.cocaugiaithuong img {
+    padding-top: 60px;
+    padding-left: 80px;
+}
+
+.timhieutablet img {
+    padding-top: 90px;
+    padding-left: 33px;
+}
+
+.timhieungay {
+    position: absolute;
+    top: 300px;
+    left: 227px;
+}
+
+/**
+*	 danhsachtrungthuong <tien06051992@gmail.com>
+**/
+
+.tbl {
+    padding-top: 40px;
+    padding-left: 48px;
+}
+
+.tbl .title {
+    margin-bottom: 20px;
+}
+
+.row-tbl:nth-child(2n+1) {
+    background: #4f4f4f;
+    display: inline-block;
+    padding: 3px;
+    width: 608px;
+
+}
+
+.row-tbl:nth-child(2n+2) {
+    margin: 5px 0;
+    padding: 3px;
+    width: 608px;
+}
+
+.title label {
+    color: #fff;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.row-tbl label {
+    color: #fff;
+    font-size: 13px;
+    margin: 0px;
+}
+
+.title-num,
+.num {
+    width: 100px;
+}
+
+.title-player,
+.player {
+    width: 300px;
+}
+
+.title-gift
+.gift {
+    width: 200px;
+}
+/**
+*	 cauhoi <tien06051992@gmail.com>
+**/
+.traloi {
+    position: absolute;
+    top: 437px;
+    left: 489px;
+
+}
+
+.question {
+    background: #f3f3f4;
+    width: 677px;
+    height: 446px;
+}
+
+.question p {
+    font-size: 20px;
+    color: #010101;
+    padding: 20px;
+}
+
+.question-content {
+    display: inline-block;
+    width: 100%;
+}
+
+.question-item {
+    float: left;
+    margin-left: 30px;
+}
+
+.question-item .item {
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.question-item .item span {
+    float: left;
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.question-img {
+    float: right;
+    margin-right: 30px;
+}
+
+
+/**
+*	 rut tham <tien06051992@gmail.com>
+**/
+ .bg-index-rutham {
+    display: block;
+    height: 673px;
+    width: 100%;
+    background: url('../img/bgruttham.png') no-repeat;
+}
+
+.label-info-rutham {
+    position: absolute;
+    right: 27px;
+    top: -19px;
+}
+
+.wrap-info-board-ruttham {
+    position: absolute;
+    width: 537px;
+    height: 347px;
+    top: 255px;
+    right: 45px;
+}
+
+.info-board-ruttham img {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.circle {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+}
+.arrow {
+    display: inline-block;
+    position: absolute;
+    z-index: 99;
+    top: 231px;
+    left: 248px;
+}
+
+#wheel {
+    -webkit-transition: -webkit-transform 3s ease-out;
+}
+/******************
+* End Main
+*******************/
+
+/******************
+* Footer
+*******************/
+ footer {
+    background: #313231;
+}
+.copyright {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 8px;
+}
+/******************
+* End Footer
+*******************/

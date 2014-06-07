@@ -1,0 +1,31 @@
+/* ----------------------------------------------------
+   created with http://www.codeandweb.com/texturepacker 
+   ----------------------------------------------------
+   $TexturePacker:SmartUpdate:f5b31f373c2459e571618fa3389fb201:1/1$
+   ----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url('../img/sprite.png');}
+
+.bangxephang {width:319px; height:33px; background-position: -2px -468px}
+.btnPlay {width:228px; height:132px; background-position: -2px -214px}
+.capnhatthongtin {width:319px; height:33px; background-position: -2px -433px}
+.choitiep {width:137px; height:38px; background-position: -323px -108px}
+.cocaugiaithuong {width:334px; height:34px; background-position: -2px -38px}
+.cocaugiaithuong2 {width:319px; height:33px; background-position: -2px -179px}
+.danhsachtrungthuong {width:319px; height:33px; background-position: -2px -144px}
+.fblogin {width:309px; height:43px; background-position: -2px -348px}
+.radio {width:23px; height:23px; background-position: -487px -108px}
+.radiochecked {width:23px; height:23px; background-position: -462px -108px}
+.rutthammayman {width:319px; height:33px; background-position: -2px -109px}
+.sanlenovo {width:317px; height:38px; background-position: -2px -393px}
+.square {width:161px; height:104px; background-position: -338px -2px}
+.thelechuongtrinh {width:334px; height:34px; background-position: -2px -2px}
+.timhieulenovotablet {width:319px; height:33px; background-position: -2px -74px}
+.timhieungay {width:226px; height:38px; background-position: -232px -214px}
+.traloi {width:129px; height:38px; background-position: -323px -148px}
